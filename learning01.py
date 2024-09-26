@@ -1,38 +1,22 @@
-a = 10
-if a < 50:
-  print('조건이 T일 경우 출력')
+i=212312435425423533421342131244
+while True:  #if문과 차이 이프느 특정 결과가 하나 얘는 결과값이 여러개
+  print(i)
+  i = i*i
   
   
+for i in range(0,3,1):
+  print(i)
+
+
+for i in range(0,3): #0과 1은 기본값 가운데 값만 정해주면 됨
   
   
-  ki = float(input('키를 입력하시오:'))
-  if ki <= 140 :
-    print('loser')
-  else :
-    print('루저아님')  
-    
-빳대리 = int(input('빳대리 잔량:'))
-if 빳대리 > 10:
-  print('기기를 작동합니다')
-elif 빳대리 > 0:
-  print('충전이 필욯바니다')
-else:
-  print('전원이 꺼집니다')
+  #반복문 속 반복문은 그 안에 끝날 때까지 갖혀있는다고 생각 속함수부터 해결
+  
 
 
 
-
-
-champ = input('당신의 챔피언:')
-tier = input("당신의 티어:")
-if tier == '브론즈' and champ == '야스오' :
-  print('과학자')
-
-
-
-
-
-
-
-
-
+for i in range(2,10,1):
+  print(i,'단')
+  for j in range(2,10,1):
+    print(i,'*',j = '=', i*j)#for a in b b안에 변수를 a로 설정
