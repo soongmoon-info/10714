@@ -20,3 +20,8 @@ for i in range(2,10,1):
   print(i,'단')
   for j in range(2,10,1):
     print(i,'*',j = '=', i*j)#for a in b b안에 변수를 a로 설정
+    
+    
+a = ['김치', '황기']
+for i in a:
+  print(i)
